@@ -36,3 +36,22 @@ Rigistro base de todos os Jogos
 
 
 
+01) Considerando o exemplo, em qual contexto utilizamos uma variável dynamica?
+ Quando há a necessidade de alterar o valor da variável
+
+02) Em relação ao seu projeto, faça 2 exemplos de uso incorreto. Justifique.
+dynamic avaliação = 5;
+avaliação = 4.8;
+não há a necessidade de se utilizar o dinamic pois apenas está gastando processamento no lugar de um double
+
+
+03) Em relação ao seu projeto, faça 2 exemplos de uso correto. Justifique.
+
+dynamic id = 1;
+
+
+>>>Atividade - final/const
+  01) Em relação ao seu projeto, faça 2 exemplos de uso incorreto. Justifique?
+  02) Em relação ao seu projeto, faça 2 exemplos de uso correto. Justifique.
+  03) Qual a diferença entre uma variável, const e final. Qual devemos utilizar?
+
