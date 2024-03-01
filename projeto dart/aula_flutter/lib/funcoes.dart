@@ -31,16 +31,36 @@ main() {
 
   print('Nota 1: ');
   int nota = 10;
-  while (nota < 10) {
-    var entNota1 = stdin.readLineSync()!;
 
-    print('Nota 2: ');
-    var entNota2 = stdin.readLineSync()!;
-    var nota1 = double.parse(entNota1);
-    var nota2 = double.parse(entNota2);
+  var entNota1 = stdin.readLineSync()!;
 
+  print('Nota 2: ');
+  var entNota2 = stdin.readLineSync()!;
+  var nota1 = double.parse(entNota1);
+  var nota2 = double.parse(entNota2);
+  if (nota1 > 10 || nota1 < 0) {
+    while (nota1 > 10 && nota1 < 0) {
+      print("A nota 1 não é válida, informe uma nota válida: ");
+      var entNota1 = stdin.readLineSync()!;
+      var nota1 = double.parse(entNota1);
+    }
   }
-  double idade = (nota1 + nota2) / 2;
+  if (nota2 > 10 || nota2 < 0) {
+    while (nota2 > 10 || nota2 < 0) {
+      print("A nota 1 não é válida, informe uma nota válida: ");
+      var entNota2 = stdin.readLineSync()!;
+      var nota2 = double.parse(entNota2);
+    }
+  }
 
-  print('as notas 1 e 2 foram $nota1 $nota2 e a média é $idade');
+  double media = (nota1 + nota2) / 2;
+  if (media >= 6) {
+    var aprovado = 'aprovado';
+  } else {
+    var aprovado = 'reprovado';
+  }
+
+  print('as notas 1 e 2 foram $nota1 $nota2 e a média é $media, o aluno está $aprovado ');
+
+  
 }
