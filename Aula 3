@@ -1,3 +1,33 @@
 29/02/2024 19:22
 Inputs e Outputs em dart
 Operadores em dart: !, ?, ?? 
+
+Atividade 01
+resolvida dentro do projeto dart arquivo aula3
+
+Atividade 02
+a) Em programação o null é um problema? Explique.
+  Na programação o null pode gerar problema em várias vertentes, tanto como na identificação de erros dentro das variáveis do códgo gerando o NullPointerException, tornando o erro dificil de se rastrear e atrapalhando na manutenção do software 
+
+b) O que é null safety? para que serve? Quais são as vantagens e desvantagens?
+  Null Safety é um recurso no Dart que ajuda a evitar referências nulas não intencionais, auxiliando na legibilidade do códgo e em sua manutenção.
+
+c) Faça um exemplo do uso incorreto de um dos operadores Null Safety.
+
+d) Em relação ao Null Safety, quais são os operadores existentes? Para que serve cada uma. No contexto do seu projeto, escreva um exemplo do uso correto de cada operador.
+
+
+Atividade 03
+Em progresso dentro do projeto dart
+
+a) Organize todo o código do estudo de caso desenvolvido até o momento em funções;
+b) Organize todo o código do seu projeto desenvolvido até o momento em funções;
+
+Atividade 04
+
+a) Quais são os tipos de parâmetros em dart? Explique as diferenças, vantagens e desvantagens de cada uma.
+ Em dart existem 3 tipos de parâmetros, Posicionais que é a passagem de parametros simples e ordenados, Parâmetros nomeados que possuem uma maior flexibilidade e te da a opção de fornecer os valores como padrão, são identificados pelas{} dentro da função, e por fim os Parâmetros Opcionais que como o próprio nome diz, te dá a opção de não informalos e são identificados pelas [] dentro da função.
+
+b) Em relação a cada tipo de parâmetro, faça 3 exemplos do estudo de caso. 
+
+c) Em relação a cada tipo de parâmetro, faça 3 exemplos do projeto. 
