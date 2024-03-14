@@ -60,7 +60,7 @@ main() {
     var aprovado = 'reprovado';
   }
 
-  print('as notas 1 e 2 foram $nota1 $nota2 e a média é $media, o aluno está $aprovado ');
+  print('as notas 1 e 2 foram $nota1 $nota2 e a média é $media, o aluno está ');
 
   
 }

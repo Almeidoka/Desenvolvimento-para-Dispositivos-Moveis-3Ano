@@ -1,0 +1,24 @@
+-Classes e Objetos 
+
+No geral a criação de classes e objetos pode ser feita da mesma maneira que o JAVA, porém a linguagem dart oferece várias facilitações nesse meio,
+tanto quanto na abstração de algumas informações que gerariam erro em java, até na passagem de parámetros que de várias formas a passagem de parametros
+posicionais e opcionais podem auxiliar na programação diária.
+
+Como por exemplo na criação de um objeto é possivel abstrair algumas coisas que o java não permitiria como 
+
+var x = MinhasClasse();
+MinhaClasse();
+
+Em bora pareça flatar diversas coisas, os costrutores acima te total funcionalidade em dat, embora um seja nomeado e outro não.
+
+além disso a passagem de parametros em dart pode ser facilitada através 
+
+
+-modificadores de acesso
+
+diferentemente de JAVA em que possuimos 3 modificadores de acesso(public, private e pretected), em dart se é utilizado o public e privated, como padrão
+todas as variaveis veem como public, ao acionar o _ antes do nome do atributo/ variavel ele se torna privada 
+EX:
+
+int x;(publica)
+int _y;(privada)
