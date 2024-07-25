@@ -1,0 +1,84 @@
+Execução vs. Compilação: geralmente mais vantajoso tratar erros antes da execução do que durante. Isso ajuda a prevenir falhas no funcionamento do programa.
+Operadores de Segurança: Conhecemos operadores importantes para o tratamento de nulls:
+!: Garante que um valor não será nulo.
+?: Indica que algo pode ser nulo.
+??: Define um valor padrão caso seja nulo.
+dart
+
+Void: No Dart, não é obrigatório definir o tipo de uma função sem retorno como void, embora seja uma boa prática fazer isso para maior clareza no código.
+dart
+
+Função: Uma função é uma unidade de código que agrupa um conjunto de instruções para realizar uma tarefa específica. Ela possui um nome, pode receber parâmetros de entrada, executar operações e retornar um valor.
+Três Passos: Entrada, processamento e saída.
+
+Atividade 01    (feito no projeto)
+a) Solicite 2 notas de avaliações e calcule a média; 
+b) Refaça o exercício anterior validado se as notas informadas são válidas (de 0 à 10);
+c) Com a média calculada, verifique se o aluno está aprovado (maior ou igual à 6).
+d) Faça 3 exemplos do seu projeto.
+
+Atividade 02
+a) Em programação, o null é um problema? Explique.
+R: Sim, pois em um cenário em que é exigido um valor para uma variável, mas esta não é preenchida, se for requerida mais tarde, há chances de gerar um erro no programa ou até quebrar a aplicação, caso não haja tratamento adequado. Null pode causar exceções inesperadas que dificultam a depuração e manutenção do código.
+
+b) O que é null safety? Para que serve? Quais são as vantagens e desvantagens?
+R: Null safety é uma característica da linguagem de programação que garante que nenhuma referência a objetos terá valores nulos. Null safety existe para eliminar riscos de referências nulas, prevenindo muitos erros comuns em tempo de execução. Suas vantagens incluem a facilitação da manutenção do código e a prevenção de erros. Por outro lado, suas desvantagens podem incluir um aumento na complexidade do código e a necessidade de mais esforço para garantir que todas as variáveis sejam inicializadas corretamente.
+
+c) Faça um exemplo do uso incorreto de um dos operadores Null Safety.
+R:
+class Pessoa {
+    String? nome;
+    int? idade;
+}
+
+void main() {
+    final pessoa = Pessoa();
+    final descricao = 'Nome: ${pessoa.nome ?? 'Desconhecido'}, Idade: ${pessoa.idade!}'; // Uso incorreto do operador de null assertion (!)
+    print(descricao);
+}
+// Se o atributo idade estiver definido como null, na linha "final descricao = 'Nome: ${pessoa.nome ?? 'Desconhecido'}, Idade: ${pessoa.idade!}';"
+// pode gerar um erro, pois o operador de null assertion (!) está assumindo que idade não é nulo.
+
+d) Em relação ao Null Safety, quais são os operadores existentes? Para que serve cada uma? No contexto do seu projeto, escreva um exemplo do uso correto de cada operador.
+
+!: Operador de assertividade de não-null. Serve para indicar que o valor não será nulo.
+String? nome;
+String nomeCliente = nome!;
+
+
+?: Operador de permissividade de null. Serve para indicar que o valor pode ser nulo.
+String? nome;
+String? carroCliente;
+
+
+??: Operador de coalescência nula. Serve para definir um valor padrão caso a variável seja nula.
+String? placaCarro;
+String placaDefinida = placaCarro ?? 'Sem placa';
+
+
+Atividade 03(feito no projeto)
+a) Organize todo o código do estudo de caso desenvolvido até o momento em funções.
+b) Organize todo o código do seu projeto desenvolvido até o momento em funções.
+
+Atividade 04
+a) Quais são os tipos de parâmetros em Dart? Explique as diferenças, vantagens e desvantagens de cada um.
+
+Posicionais obrigatórios: São parâmetros que devem ser passados na ordem correta e são obrigatórios.
+Vantagens: Simplicidade e clareza.
+Desvantagens: Falta de flexibilidade.
+
+Posicionais opcionais: São parâmetros que podem ser omitidos. Usam colchetes [].
+Vantagens: Flexibilidade na chamada de funções.
+Desvantagens: Pode causar confusão se muitos parâmetros opcionais forem usados.
+
+Nomeados obrigatórios: São parâmetros que devem ser passados, mas a ordem não importa. Usam chaves {}.
+Vantagens: Claridade e flexibilidade.
+Desvantagens: A necessidade de sempre especificar o nome do parâmetro.
+
+Nomeados opcionais: São parâmetros que podem ser omitidos. Usam chaves {} com valores padrão.
+Vantagens: Flexibilidade e clareza com valores padrão.
+Desvantagens: A definição dos valores padrão pode não ser intuitiva.
+
+b) Em relação a cada tipo de parâmetro, faça 3 exemplos do estudo de caso.
+
+c) Em relação a cada tipo de parâmetro, faça 3 exemplos do projeto.
