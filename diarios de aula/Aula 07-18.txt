@@ -1,0 +1,1 @@
+Aula utilizada apenas para definir os requisitos do projeto juntamente a alterar alguns detalhes da documentação.

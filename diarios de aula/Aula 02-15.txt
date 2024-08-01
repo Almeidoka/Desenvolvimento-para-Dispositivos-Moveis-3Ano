@@ -1,0 +1,56 @@
+Atividade 1 
+
+As diferenças principais entre os salários e as cargas horárias dos profissionais estão diretamente ligadas à experiência e às habilidades de cada um:
+
+Um "Estagiário" ganha R$400,00 por mês e trabalha entre 4 e 6 horas diárias. Esse período serve para que a pessoa desenvolva e demonstre as habilidades necessárias.
+
+Um "Desenvolvedor Júnior" recebe R$1.200,00 por mês e trabalha 8 horas por dia. Esse profissional já possui um conhecimento básico que lhe permite realizar o trabalho de forma mais autônoma em comparação com um estagiário.
+
+Um "Desenvolvedor" recebe R$2.500,00 por mês e trabalha 10 horas diárias. Ele tem um papel mais importante e um conhecimento mais avançado, mas ainda pode demorar mais para concluir suas tarefas. Em alguns casos, um desenvolvedor pode ganhar o mesmo salário, mas trabalhar 8 horas e ser mais eficiente que um recém-promovido.
+
+Um "Desenvolvedor Pleno" ganha R$6.000,00 e trabalha 12 horas por dia, pois está no início de um novo cargo e precisa produzir mais. Se ele trabalha apenas 8 horas com o mesmo salário, possui um conhecimento técnico muito sólido. Há também quem, ganhando o mesmo e trabalhando a mesma quantidade de horas, foca mais na gestão do trabalho, tendo um conhecimento teórico mais amplo.
+
+Um desenvolvedor pleno que ganha R$12.000,00 e tem um horário de trabalho indeterminado já domina tanto a parte técnica quanto a gestão e, ao concluir suas tarefas, auxilia os demais membros da equipe.
+
+Atividade 2
+
+- Qual a melhor equipe de 4 pessoas para uma empresa? 
+O time ideal seria formado por 1 Desenvolvedor Pleno, 1 Desenvolvedor, 1 Desenvolvedor Júnior, e 1 Estagiário. Isso combina liderança, experiência, suporte técnico e aprendizado contínuo.
+
+- O que esta pergunta tem a ver com a nossa disciplina?
+
+demonstrar a difetenca de niveis da equipe para que cada um contribua ao desenvolvimento, sem a necessidade de que todos dominem tudo, o que seria ideal, mas custoso.
+
+Atividade 3
+
+Exemplificando os personagens (E, J, D, P):
+
+Alice Martins pode ser chamada de P, pois executa um trabalho mais voltado para a gestão.
+Bruno Silva pode ser chamado de P também, já que realiza um trabalho mais técnico, sendo pleno.
+Carlos Souza também chamamos de P, pois ele desempenha tanto o papel técnico quanto o de gestão.
+Daniela Pereira é chamada de P, similar a Bruno Silva, com domínio técnico.
+Eduardo Lima pode ser chamado de D; ele fez cálculos que acreditava estarem corretos, mas foram repassados para Daniela Pereira para revisão.
+
+Citando méritos dos personagens "P" identificados no filme:
+
+Dorothy Vaughn: Delibera as tarefas necessárias e identifica erros na máquina.
+Mary Jackson: Descobre uma modificação crucial no dispositivo de propulsão.
+Al Harrison: Lidera todo o projeto, sendo a mente principal por trás das operações.
+Katherine Johnson: Encontra a formulação necessária para o lançamento.
+Paul Stafford: Realiza o trabalho bruto, mas ainda incompleto.
+
+
+Qual a relação do filme com a disciplina/curso:
+
+O filme além de demonstrar a importancia da carreira de um Engenheiro de Software também serve de inspiração para as pessaos da area demonstrando também alguns pontos importantes que giram nesse meio de trabalho.
+
+Qual a relação do filme com o diario:
+
+O filme demonstra o desempenho continuo de cada personagem assim como o nosso diário.
+
+Em qual categoria você se enquadra hoje e no trimestre(Pretende)?
+Ao começar o trimestre ainda sem conhecimentos de linguaguem me considero um E buscando mais conhecimento, em um periodo de aprendizagem ainda, almejando me tornar um D ao final do trimestre.
+
+Considerando o tempo/contexto/cenario e comprove a participação individual e da equipe:=
+Acreditamos que conseguimos assimilar tanto individualmente quanto em equipe a intenção que o professor queria passar, tanto os conceitos que envolvem 
+seu nivel de aprendizado e o que almeja alcançar, e oque tem que ser feito.

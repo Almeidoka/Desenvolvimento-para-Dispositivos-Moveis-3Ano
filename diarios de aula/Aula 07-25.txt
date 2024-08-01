@@ -1,0 +1,1 @@
+Aula utilizada para desenvolver a metodologia que será utilizada no projeto, juntamente ao polimento de alguns requisitos.

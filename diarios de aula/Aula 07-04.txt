@@ -1,0 +1,40 @@
+Pesquisa sobre Levantamento de Requisitos
+Quando se realiza uma pesquisa sobre o levantamento de requisitos, é fundamental utilizar uma variedade de fontes acadêmicas e profissionais para garantir a qualidade e a precisão das informações:
+
+Artigos Científicos: Esses documentos fornecem detalhes aprofundados e são baseados em pesquisas rigorosas, o que é essencial para uma compreensão sólida do tema.
+Livros e Manuais: São ótimas fontes para obter uma visão geral e consolidada sobre o levantamento de requisitos, oferecendo uma base teórica robusta.
+Normas e Padrões: Referências como a ISO/IEC/IEEE 29148 são importantes, pois definem processos e práticas estabelecidos para o levantamento de requisitos.
+Sites e Blogs Especializados: Esses recursos frequentemente apresentam insights práticos e atualizados, oriundos de profissionais experientes na área.
+A integração dessas fontes permite uma abordagem completa, combinando teoria e prática para uma pesquisa mais robusta.
+
+Metodologias para Levantamento de Requisitos
+Adotar uma metodologia estruturada é crucial para o sucesso no levantamento de requisitos. A improvisação pode resultar em problemas como lacunas e ambiguidades. Entre as metodologias recomendadas, destacam-se:
+
+Waterfall (Cascata): Um modelo tradicional com etapas sequenciais bem definidas, ideal para projetos com requisitos bem estabelecidos.
+Agile: Foca na flexibilidade e na entrega incremental, sendo muito utilizado em desenvolvimentos modernos de software.
+Scrum: Um framework ágil que promove entregas rápidas e iterativas, permitindo adaptações frequentes.
+Kanban: Método visual para gerenciar o fluxo de trabalho, facilitando o gerenciamento contínuo e a visualização do progresso.
+Cada abordagem tem suas vantagens e desvantagens, e a escolha deve ser orientada pelo contexto específico do projeto.
+
+Riscos Associados e Ações de Mitigação
+Os principais riscos associados ao levantamento de requisitos incluem:
+
+Requisitos Ambíguos ou Incompletos: Podem levar a interpretações incorretas e comprometer o resultado final.
+Mudanças Frequentes de Requisitos: Alterações constantes podem desestabilizar o projeto e afetar o cronograma.
+Falta de Envolvimento dos Stakeholders: A ausência de participação ativa dos stakeholders pode resultar em requisitos que não refletem suas reais necessidades.
+Comunicação Ineficiente: Pode causar mal-entendidos e necessidade de retrabalho.
+Para mitigar esses riscos, é recomendável:
+
+Documentação Clara e Detalhada: Escrever de forma precisa para evitar ambiguidades e mal-entendidos.
+Gestão de Mudanças: Implementar um processo estruturado para controlar alterações nos requisitos.
+Envolvimento Contínuo dos Stakeholders: Garantir comunicação constante e participação ativa dos interessados.
+Uso de Ferramentas de Colaboração: Empregar ferramentas que facilitem o rastreamento e a comunicação sobre os requisitos.
+Validação e Verificação de Requisitos
+Validação de Requisitos: Consiste em garantir que os requisitos atendem às necessidades e expectativas dos stakeholders, assegurando que o produto final será adequado e aceito.
+Verificação de Requisitos: Envolve confirmar que os requisitos estão corretamente definidos, são consistentes e completos, garantindo a qualidade e precisão.
+Para realizar essas atividades de forma eficaz, recomenda-se:
+
+Revisões Periódicas: Realizar revisões com os stakeholders para assegurar que os requisitos estão alinhados com suas expectativas.
+Prototipagem: Desenvolver protótipos para verificar se os requisitos foram bem compreendidos.
+Testes de Requisitos: Conduzir testes para garantir que os requisitos sejam testáveis e verificáveis.
+Modelagem: Utilizar diagramas e modelos para garantir a consistência e a completude dos requisitos.

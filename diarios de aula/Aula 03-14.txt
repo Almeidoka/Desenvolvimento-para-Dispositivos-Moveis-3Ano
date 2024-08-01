@@ -1,0 +1,1 @@
+Durante a aula foi apresentado as Classes e Objetos em Dart alem de sua sintaxe para demais usos.

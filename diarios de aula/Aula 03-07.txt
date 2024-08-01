@@ -1,0 +1,58 @@
+  Tipos de Parâmetros; 
+
+POSICIONAIS
+1-regras-posição;  pq é obrigatório? vantagens/desvantagens; tipos nulos; tipo nulo não é opcional; nulo deve ser tratado;
+
+Em Dart, parâmetros posicionais são aqueles definidos pela ordem na função e devem ser fornecidos nessa mesma ordem ao chamar a função. São obrigatórios por padrão, pois a função espera receber os argumentos na sequência em que foram definidos, o que garante a consistência dos dados.
+A principal vantagem dos parâmetros posicionais é a simplicidade, facilitando o entendimento da função, enquanto a desvantagem é a necessidade de seguir a ordem exata dos parâmetros, o que pode levar a erros se a ordem não for seguida corretamente. Parâmetros posicionais podem ser nulos se especificados como Tipo?, e é importante tratar esses casos nulos para evitar erros em tempo de execução.
+
+2-valor padrão nulo e informado; regras básicas; quem é quem?
+
+você pode fornecer valores padrão para parâmetros opcionais, que serão utilizados quando nenhum valor for passado na chamada da função. Parâmetros com valores padrão são opcionais e podem ser omitidos, enquanto parâmetros sem valores padrão são obrigatórios e devem ser sempre fornecidos.
+As regras básicas são que parâmetros com valores padrão têm uma definição entre colchetes [], e esses valores são aplicados quando o argumento não é fornecido. Parâmetros sem valores padrão são obrigatórios e precisam ser incluídos em todas as chamadas da função.
+
+Atividade 01 - Parâmetros Posicionais:
+ex1:
+int calcularIdade(int anoNascimento, int anoAtual) {
+  int idade = anoAtual - anoNascimento;
+  print('A idade calculada é: $idade anos'); // Imprime a idade calculada
+  return idade; // Retorna a idade
+}
+
+void main() {
+  int anoNascimento = 1994;
+  int anoAtual = 2024;
+  
+  int idade = calcularIdade(anoNascimento, anoAtual); // Chama a função e armazena o valor retornado
+  print('A idade de alguém nascido em $anoNascimento é: $idade anos'); // Imprime a idade retornada
+}
+
+- sintaxe; pq é opcional? nomeados obrigatórios; nomeados e posicionais	
+R: 
+Permitem flexibilidade e uso de valores padrão. required torna um parâmetro obrigatório, os parametros nomeados e posicionais, podem ser usados juntos, mas os posicionais vêm primeiro.
+{parametro1, parametro2}
+
+Atividade 02 - 
+
+PARAMETRO DO TIPO FUNÇÃO;
+sintaxe; exemplo contextualizado; execução;
+R:Passa uma função como argumento para outra função.
+void Function(Tipo) nomeParametro
+
+void processarDados(void Function(String) callback) { 
+    callback('dado'); 
+    }
+
+Atividade 03 - 
+FUNÇÕES ANONIMAS;
+sintaxe; exemplo contextualizado; execução;
+(quando usar ";" e ","<<)
+R: Usadas para operações rápidas e como argumentos em funções o uso de ; e ,: ; finaliza blocos de código, , separa parâmetros.
+(parametros) => expressão
+
+var soma = (int a, int b) => a + b;
+
+Atividade 04 - 
+
+TESTES UNITARIOS E BOAS PRATICAS;
+aplicar testes para cada exercício
