@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:teste_flutter/widgt/forma_aluno.dart';
-import 'package:teste_flutter/widgt/lista_aluno.dart';
-import 'package:teste_flutter/widgt/principal.dart';
+import 'package:teste_flutter/widgt/escopoNegativo/forma_aluno.dart';
+import 'package:teste_flutter/widgt/escopoNegativo/lista_aluno.dart';
+import 'package:teste_flutter/widgt/escopoNegativo/principal.dart';
 
 class App extends StatelessWidget {
   @override
